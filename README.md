@@ -60,18 +60,18 @@ mvn package
 
 Para comprobar que la página web ha sido desplegada con éxito de manera local utilizando Docker, y calcular el ArcoTangente del valor ingresado (en este caso será 90) se ingresa en el navegador la siguiente URL: http://localhost:8000/atan?value=90. Como se puede observar, el contenedor ha sido desplegado satisfactoriamente de manera local utilizando Docker.
 
-![img](https://github.com/JuanMunozD/AREPParcial2Juan/blob/main/img/PruebalocalAtan.PNG)
+![](img/PruebalocalAtan.PNG)
 
 Para comprobar que la página web ha sido desplegada con éxito de manera local utilizando Docker, y calcular el Seno del valor ingresado (en este caso será 90) se ingresa en el navegador la siguiente URL: http://localhost:8000/log?value=90. Como se puede observar, el contenedor ha sido desplegado satisfactoriamente de manera local utilizando Docker.
 
-![img](https://github.com/JuanMunozD/AREPParcial2Juan/blob/main/img/PruebalocalSin.PNG)
+![](img/PruebalocalSin.PNG)
 
 ----------
 
 ### AWS
 Para comprobar que la página web ha sido desplegada con éxito utilizando AWS, y calcular el ArcoTangente del valor ingresado (en este caso será 90) se ingresa en el navegador la siguiente URL: http://ec2-52-14-197-83.us-east-2.compute.amazonaws.com:8000/atan?value=90 y la otra URL para Seno http://ec2-52-14-197-83.us-east-2.compute.amazonaws.com:8000/sin?value=90. Como se puede observar, el contenedor ha sido desplegado satisfactoriamente en AWS.
 
-![img](https://github.com/Skullzo/AREP-Parcial2/blob/main/img/PruebaAmazon.PNG)
+![](img/PruebaAmazon.PNG)
 
 ## Autor
 [Juan Sebastian Muñoz Dorado](https://github.com/JuanMunozD)
